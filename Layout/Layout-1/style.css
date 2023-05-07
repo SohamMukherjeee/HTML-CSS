@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: wheat;
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.nav-div{
+   width: 100%;
+   min-height: 30px;
+   background-color: wheat;
+    padding-left: 2%;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.main-con{
+    width: 100%;
+    background-color: wheat;
+}
+.small{
+    width: 20%;
+    min-height: 400px;
+    background-color: wheat;
+    float: left;
+    line-height: 400px;
+    text-align: center;
+}
+.big{
+    width: 75%;
+    min-height: 400px;
+    background-color: wheat;
+    float: right;
+    line-height: 400px;
+    text-align: center;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
